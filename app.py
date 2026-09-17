@@ -21,7 +21,7 @@ st.sidebar.subheader("Run Timeline Settings")
 pre_sale_weeks = st.sidebar.number_input(
     "Pre-Sale Window Length (Weeks Out)", 
     min_value=4, 
-    max_value=52, 
+    max_value=104, 
     value=36, 
     step=1,
     help="Target pre-sale window length for modeling (weeks out)."
